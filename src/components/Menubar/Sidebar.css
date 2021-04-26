@@ -1,0 +1,92 @@
+ /* Position and sizing of burger button */
+.bm-burger-button {
+  position: sticky;
+  display: flex;
+  float: right;
+  width: 20px;
+  height: 16px;
+  margin-top: -274px;
+  margin-right: -24px;
+
+}
+
+
+  
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: white;
+  }
+  
+  /* Color/shape of burger icon bars on hover*/
+  .bm-burger-bars-hover {
+    background:grey;
+  }
+  
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: #bdc3c7;
+  }
+  
+  /*
+  Sidebar wrapper styles
+  */
+  .bm-menu-wrap {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden;
+   
+  }
+  
+  /* General sidebar styles */
+  .bm-menu {
+    background: black;
+    padding:5.5em;
+    font-size: 2em;  
+    height: 100%;
+    width: 100%;
+    margin-top: -304px;
+    margin-left: 400px;
+    overflow: hidden;
+  }
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: white;
+    padding: 11.5em;
+    height: 100%;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden;
+    
+    
+  }
+  
+  /* Individual item */
+
+  .bm-item {
+    color: #d1d1d1;
+    text-decoration: none;
+    transition: color 0.2s;
+    align-items: center;
+  }
+  
+  .bm-item:hover {
+    color: #ffffff;
+  }
+/*    
+header{
+    transform: translate3d(0px, 0px, 0px);
+    height: 135px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  } */
+ 
