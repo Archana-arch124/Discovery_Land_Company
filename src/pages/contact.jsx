@@ -1,12 +1,10 @@
 import React from 'react'
 import logo1 from "../ASSETS/newLogo.png";
 import '../components/Home/home.css';
-import Sidebar from '../components/Menubar/Sidebar.jsx';
 import '../components/Home/home.css';
-import logo from "../ASSETS/logo.png";
 import new3 from "../ASSETS/new3.jpg";
-import arrow from "../ASSETS/arrow.jpg";
 import Cursor from '../components/Cursor/cursorStyle.jsx';
+import Navbar from '../components/Navbar/navbar';
 export default class ToolBarContact extends React.Component {
   render() {
     return (
@@ -14,32 +12,31 @@ export default class ToolBarContact extends React.Component {
         <Cursor />
         <img src="https://dxaurk9yhilm4.cloudfront.net/images/810/contacthero_7103947f36acbeba23c6868ee5ad2c23.jpg" alt="" style={{ marginLeft: "0px", height: "95vh", width: "99vw" }}></img>
         <div className="App" id="outer-container">
-          <div id="page-wrap">
-            <header style={{ marginTop: "-241px" }} >
-              <Sidebar />
-              <div className="logo" >
-                <nav className="navbar" >
-                  <ul> <img className="logo" src={logo} alt="logo"></img>
-                    <li><a href="#" className="cool-link">AboutDLC</a></li>
-                    <li><a href="#" className="cool-link">OurWorlds</a></li>
-                    <li><a href="#" className="cool-link" >Experiences </a></li>
-                    <li><a href="#" className="cool-link" >Gallery</a></li>
-                    <li><a href="#" className="cool-link">Press</a></li>
-                    <li><a href="#" className="cool-link">Contact </a></li>
-                    <li><a href="#" className="cool-link"> ☰ </a></li>
-                  </ul>
-                </nav>
-              </div>
-            </header>
+        <div id="page-wrap">
+          <header style={{ marginRight: "200px",marginTop: "-351px" }} >
+              <Navbar />
+          </header>
             <div class="unforgettableExperience animate__slideInUp">
               <div class="unforget">Find your</div>
               <div class="experience">Own World</div>
-              <div class="scroll" style={{ "marginTop": "35px" }}>Scroll to explore</div>
-              <img src={arrow} alt="arrow"
-                style={{ "marginLeft": "850px", "marginTop": "39px", "transform": "translate3d(4px, -116px, 2px)", "height": "60px", "width": "67px" }}></img>
-            </div>
+              <div class="scroll" style={{ "marginTop": "140px" }}>Scroll to explore</div>
+            <div className="arrow" >
+                <svg className="arrowdown"
+                  color="white"
+                  width="34"
+                  height="36"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M11.0001 3.67157L13.0001 3.67157L13.0001 16.4999L16.2426 13.2574L17.6568 14.6716L12 20.3284L6.34314 14.6716L7.75735 13.2574L11.0001 16.5001L11.0001 3.67157Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div></div>
             <p class="c-intro"></p>
-            <div className="p" style={{ "textAlign": "center", "fontSize": "25px", "fontStyle": "oblique", padding: "110px" }}>
+            <div className="p" style={{ "textAlign": "center", "fontSize": "25px", "fontStyle": "oblique", padding: "210px" }}>
               <div>Take the first step towards discovering your perfect world. Select a </div>
               <div>community below and speak to one of our advisors who are here to </div>
               <div>make the incredible happen. </div>

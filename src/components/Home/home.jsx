@@ -1,17 +1,15 @@
 import './home.css';
-import track from '/ReactP/discoverylandd/src/ASSETS/tracking.jpg';
-import new1 from "/ReactP/discoverylandd/src/ASSETS/new1.jpg";
-import new2 from "/ReactP/discoverylandd/src/ASSETS/new2.jpg";
-import water from "/ReactP/discoverylandd/src/ASSETS/water.jpg";
-import video from "/ReactP/discoverylandd/src/ASSETS/video.mp4";
-import wellness from "/ReactP/discoverylandd/src/ASSETS/wellness.jpg";
-import new3 from "/ReactP/discoverylandd/src/ASSETS/new3.jpg";
+import track from '../../ASSETS/tracking.jpg';
+import new1 from "../../ASSETS/new1.jpg";
+import new2 from "../../ASSETS/new2.jpg";
+import water from "../../ASSETS/water.jpg";
+import video from "../../ASSETS/video.mp4";
+import wellness from "../../ASSETS/wellness.jpg";
+import new3 from "../../ASSETS//new3.jpg";
 import Contact from '../Footer/footer.jsx';
 import React, { useRef } from "react";
 import Cursor from '../Cursor/cursorStyle.jsx';
 import Navbar from '../Navbar/navbar.jsx';
-
-
 
 const Home = () => {
   const welcome = useRef(null);
@@ -23,7 +21,6 @@ const Home = () => {
 
   return (
     <>
-
       <div className="Background">
         <Cursor />
         <section className="video-container">
@@ -31,13 +28,11 @@ const Home = () => {
             <source src={video} type="video/mp4" />
           </video>
         </section>
-        <div className="App" id="outer-container">
+        <div className="app" id="outer-container">
           <div id="page-wrap">
             <header className="Head" >
               <div className="logo" >
-
                 <Navbar />
-
               </div>
             </header>
             <div className="unforgettableExperience animate__slideInUp">

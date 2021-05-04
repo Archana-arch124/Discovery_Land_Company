@@ -1,5 +1,4 @@
-/* import React from 'react'
- */import Sidebar from '../components/Menubar/Sidebar.jsx';
+
 import '../components/Home/home.css';
 import video from "../ASSETS/video.mp4";
 import Contact from '../components/Footer/footer.jsx';
@@ -15,7 +14,6 @@ const About = () => {
           <source src={video} type="video/mp4" />
         </video>
       </section>
-      <div className="App" id="outer-container">
         <div id="page-wrap">
         <header className="Head" >
               <div className="logo" >
@@ -44,7 +42,6 @@ const About = () => {
                 </svg>
               </div> </div>
         </div>
-      </div>
       <Contact />
     </div>
 

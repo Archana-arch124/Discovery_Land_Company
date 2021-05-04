@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from "/ReactP/discoverylandd/src/ASSETS/logo.png";
+import logo from "C:/ReactProject-1/DiscoveryLandC/src/ASSETS/logo.png";
 import { BrowserRouter as Router, Link } from 'react-router-dom';
 import Bar from '../Menubar/menu';
 import { useHistory } from "react-router-dom";

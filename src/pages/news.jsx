@@ -1,11 +1,9 @@
 import React from 'react'
-import logo1 from "../ASSETS/newLogo.png";
 import '../components/Home/home.css';
-import Sidebar from '../components/Menubar/Sidebar.jsx';
-import '../components/Home/home.css';
-import logo from "../ASSETS/logo.png";
 import new3 from "../ASSETS/new3.jpg";
 import Cursor from '../components/Cursor/cursorStyle.jsx';
+import Contact from '../components/Footer/footer';
+import Navbar from '../components/Navbar/navbar';
 
 
 export default class News extends React.Component {
@@ -17,27 +15,13 @@ export default class News extends React.Component {
 
         <div className="App" id="outer-container">
           <div id="page-wrap">
-            <header style={{ marginTop: "-241px" }} >
-              <Sidebar />
-              <div className="logo" >
-                <nav className="navbar" >
-                  <ul> <img className="logo" src={logo} alt="logo"></img>
-                    <li><a href="#" className="cool-link">AboutDLC</a></li>
-                    <li><a href="#" className="cool-link">OurWorlds</a></li>
-                    <li><a href="#" className="cool-link" >Experiences </a></li>
-                    <li><a href="#" className="cool-link" >Gallery</a></li>
-                    <li><a href="#" className="cool-link">Press</a></li>
-                    <li><a href="#" className="cool-link">Contact </a></li>
-                    <li><a href="#" className="cool-link"> ☰ </a></li>
-
-                  </ul>
-                </nav>
-              </div>
-            </header>
+          <header style={{ marginRight: "200px", marginTop: "-351px" }} >
+            <Navbar />
+          </header>
             <div class="unforgettableExperience animate__slideInUp">
               <div class="unforget">News</div>
               <div class="experience">and Press</div>
-              <div class="scroll" style={{ "marginTop": "35px" }}>Scroll to explore</div>
+              <div class="scroll" style={{ "marginTop": "145px" }}>Scroll to explore</div>
               <div className="arrow" >
                 <svg className="arrowdown"
                   color="white"
@@ -54,58 +38,16 @@ export default class News extends React.Component {
                 </svg>
               </div> </div>
             <p class="c-intro"></p>
-            <div className="p" style={{ "fontSize": "45px", padding: "110px" }}>
-              <div>Latest News </div>
-
+            <div className="p" style={{ "fontSize": "25px", padding: "200px" }}>
+              <b>Latest News </b>
+<p>Discovery Land Company is a Scottsdale, Arizona-based developer and operator of private residential communities and clubs in North America. The company has been called one of the best developers of resort communities by Robb Report Vacation Homes and Luxury Living magazines. </p>
             </div>
           </div>
         </div>
-        <img src={new3} alt="track" style={{ height: "90vh", width: "100vw", marginLeft: "0px", padding: "100px", marginTop: "-120px" }} />
+        <img src={new3} alt="track" style={{ height: "99vh", width: "99vw", marginLeft: "0px", padding: "100px", marginTop: "-120px" }} />
 
 
-        <footer>
-          <div className="footer">
-            <div className="logo1" >
-              <img src={logo1} alt="logo1"></img>
-            </div>
-            <div className="footerInfo">
-              <h6></h6>
-              <nav className="footerNav">
-                <div class="inTouch">
-                  <ul>
-                    <li><a href="#" style={{ color: 'grey' }}><b>GET IN TOUCH</b></a></li>
-                    <li><a href="#" className="cool-link">(480)624-5200</a></li>
-                    <li><a href="#" className="cool-link"><u>mail@discoverylandco.com</u></a></li>
-                  </ul>
-                </div>
-                <div className="company">
-                  <ul>
-                    <li><a href="#" className="cool-link">About DLC</a></li>
-                    <li><a href="#" className="cool-link">Our Worlds</a></li>
-                    <li><a href="#" className="cool-link">Experiences</a></li>
-                    <li><a href="#" className="cool-link">Gallery</a></li>
-                    <li><a href="#" className="cool-link">Press</a></li>
-                    <li><a href="#" className="cool-link">Contact</a></li>
-                  </ul>
-                </div>
-                <div className="company" >
-                  <ul className="company1" >
-                    <li><a href="#" className="cool-link" >Magazine</a></li>
-                    <li><a href="#" className="cool-link">Careers</a></li>
-                    <li><a href="#" className="cool-link">Foundation</a></li>
-                    <li><a href="#" className="cool-link">Company</a></li>
-                    <li><a href="#" className="cool-link">Privacy</a></li>
-                  </ul>
-                </div>
-              </nav>
-            </div>
-          </div>
-
-          <div className="last">
-            <p>© Discovery Land Company. All rights reserved.</p>
-          </div>
-
-        </footer>
+        <Contact/>
       </div>
 
 

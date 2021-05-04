@@ -1,6 +1,6 @@
 import React from 'react'
-import logo1 from "/ReactP/discoverylandd/src/ASSETS/newLogo.png";
-import '/ReactP/discoverylandd/src/components/Home/home.css';
+import logo1 from "../../ASSETS/newLogo.png";
+import '../../components/Home/home.css';
 export default class Contact extends React.Component {
   render() {
     return (

@@ -51,7 +51,7 @@
   
   }
   .Head{
-    margin-top:-405px ;
+    margin-top:-485px ;
   }
  
     .navbar{
@@ -99,6 +99,12 @@
     animation: Slide_Up 3s ease; 
     margin-left: 72px;
   }
+  .gallery{
+    margin-top: 300px;
+  }
+  .gallery1{
+    margin-top: -50px;
+  }
   .experience{
     font-family: 'gotham';
     font-size: 60px;
@@ -121,8 +127,8 @@
     margin-left: 82px;
     color: #FFFFFFA6;
     margin-left: 29px;
-    margin-top: 120px;
-    font-size: 14.52px;
+    margin-top: 183px;
+        font-size: 14.52px;
     font-family: 'messina-sans';
   
      }
@@ -399,15 +405,15 @@
 }
 .Gallery1{
   height: 514px;
-  width: 333px;
-  margin-left: -1px;
+  width: 433px;
+  margin-left: 0px;
   margin-top: 98px;
 }
 .Gallery2{
  
   height: 515px;
-  width: 350px;
-  margin-left: 539px;
+  width: 574px;
+  margin-left: 339px;
   margin-top: -562px;
 
 }
@@ -464,9 +470,8 @@ ul {
   margin: 0;
   padding: 0;
   display: flex;
-  margin-right: -21px;
-  margin-top: -291px;
-  position: relative;
+  margin-right: -32px;
+  margin-top: -228px;
   font-family: 'NTR', sans-serif;
   justify-content: space-evenly;
   list-style-type: none;
@@ -522,19 +527,13 @@ h2 {
 }
 .waterImageslide1 {
   height: 514px;
-  width: 340px;
+  width: 486px;
   margin-left: 352px;
   margin-top: 48px;
 }
 .waterImageslide2 {
   height: 515px;
-  width: 340px;
-  margin-left: 706px;
-  margin-top: -566px;
-}
-.waterImageslide2 {
-  height: 515px;
-  width: 340px;
+  width: 486px;
   margin-left: 706px;
   margin-top: -566px;
 }
