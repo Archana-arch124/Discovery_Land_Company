@@ -22,7 +22,7 @@ const OurWorlds = () => {
       <div className="App" id="outer-container">
         <div id="page-wrap">
           <header style={{ marginRight: "200px", marginTop: "-351px" }} >
-            <Navbar/>
+            <Navbar />
           </header>
           <div class="unforgettableExperience animate__slideInUp">
             <div class="unforget">Our Worlds</div>
@@ -42,7 +42,7 @@ const OurWorlds = () => {
                 />
               </svg>
             </div></div>
-            <div className="gallery">
+          <div className="gallery">
             <img src={new3} alt="track" style={{ height: "300px", width: "443px", marginLeft: "0px", marginTop: "-120px" }} />
             <img src={water} alt="water" style={{ height: "300px", width: "480px", marginLeft: "0px", marginTop: "-562px" }} />
             <img src={wellness} alt="wellness" style={{ height: "300px", width: "425px", marginLeft: "0px", marginTop: "-566px" }} /></div>
@@ -50,7 +50,7 @@ const OurWorlds = () => {
             <img src={new2} alt="track" style={{ height: "300px", width: "443px", marginLeft: "0px", marginTop: "48px" }} />
             <img src={track} alt="water" style={{ height: "300px", width: "480px", marginLeft: "0px", marginTop: "-562px" }} />
             <img src={treeWater} alt="wellness" style={{ height: "300px", width: "425px", marginLeft: "0px", marginTop: "-566px" }} /></div>
-       </div>
+        </div>
         <Contact />
       </div>
     </div>

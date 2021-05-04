@@ -15,9 +15,9 @@ export default class News extends React.Component {
 
         <div className="App" id="outer-container">
           <div id="page-wrap">
-          <header style={{ marginRight: "200px", marginTop: "-351px" }} >
-            <Navbar />
-          </header>
+            <header style={{ marginRight: "200px", marginTop: "-351px" }} >
+              <Navbar />
+            </header>
             <div class="unforgettableExperience animate__slideInUp">
               <div class="unforget">News</div>
               <div class="experience">and Press</div>
@@ -40,14 +40,14 @@ export default class News extends React.Component {
             <p class="c-intro"></p>
             <div className="p" style={{ "fontSize": "25px", padding: "200px" }}>
               <b>Latest News </b>
-<p>Discovery Land Company is a Scottsdale, Arizona-based developer and operator of private residential communities and clubs in North America. The company has been called one of the best developers of resort communities by Robb Report Vacation Homes and Luxury Living magazines. </p>
+              <p>Discovery Land Company is a Scottsdale, Arizona-based developer and operator of private residential communities and clubs in North America. The company has been called one of the best developers of resort communities by Robb Report Vacation Homes and Luxury Living magazines. </p>
             </div>
           </div>
         </div>
         <img src={new3} alt="track" style={{ height: "99vh", width: "99vw", marginLeft: "0px", padding: "100px", marginTop: "-120px" }} />
 
 
-        <Contact/>
+        <Contact />
       </div>
 
 

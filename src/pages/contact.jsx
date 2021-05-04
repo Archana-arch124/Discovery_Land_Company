@@ -12,15 +12,15 @@ export default class ToolBarContact extends React.Component {
         <Cursor />
         <img src="https://dxaurk9yhilm4.cloudfront.net/images/810/contacthero_7103947f36acbeba23c6868ee5ad2c23.jpg" alt="" style={{ marginLeft: "0px", height: "95vh", width: "99vw" }}></img>
         <div className="App" id="outer-container">
-        <div id="page-wrap">
-          <header style={{ marginRight: "200px",marginTop: "-351px" }} >
+          <div id="page-wrap">
+            <header style={{ marginRight: "200px", marginTop: "-351px" }} >
               <Navbar />
-          </header>
+            </header>
             <div class="unforgettableExperience animate__slideInUp">
               <div class="unforget">Find your</div>
               <div class="experience">Own World</div>
               <div class="scroll" style={{ "marginTop": "140px" }}>Scroll to explore</div>
-            <div className="arrow" >
+              <div className="arrow" >
                 <svg className="arrowdown"
                   color="white"
                   width="34"

@@ -20,6 +20,7 @@ const Experience = () => {
           <header style={{ marginRight: "200px", marginTop: "-471px" }} >
             <Navbar />
           </header>
+          
           <div class="unforgettableExperience animate__slideInUp">
             <div class="unforget" style={{ marginRight: "250px", marginTop: "-151px" }}>Gallery</div>
             <div class="scroll" style={{ "marginTop": "240px" }}>Scroll to explore</div>
