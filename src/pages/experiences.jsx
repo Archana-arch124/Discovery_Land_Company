@@ -39,6 +39,12 @@ const Experience = () => {
                 />
               </svg>
             </div></div>
+            <p class="c-intro"></p>
+            <div className="p" style={{ "textAlign": "center", "fontSize": "25px", "fontStyle": "oblique", padding: "210px" }}>
+              <div>Founded in 1994 by Mike Meldman, Discovery Land Company is a </div>
+              <div>club communities and resorts with a world-renowned portfolio of </div>
+              <div>domestic and international properties </div>
+              </div>
         </div>
       </div>
       <Contact />

@@ -1,6 +1,7 @@
 
 import '../components/Home/home.css';
 import video from "../ASSETS/video.mp4";
+import new3 from "../ASSETS/new3.jpg";
 import Contact from '../components/Footer/footer.jsx';
 import Cursor from '../components/Cursor/cursorStyle.jsx';
 import Navbar from '../components/Navbar/navbar.jsx';
@@ -40,7 +41,15 @@ const About = () => {
                 fill="currentColor"
               />
             </svg>
+            
           </div> </div>
+          <p class="c-intro"></p>
+            <div className="p" style={{ "textAlign": "center", "fontSize": "25px", "fontStyle": "oblique", padding: "210px" }}>
+              <div>Founded in 1994 by Mike Meldman, Discovery Land Company is a </div>
+              <div>club communities and resorts with a world-renowned portfolio of </div>
+              <div>domestic and international properties </div>
+
+        </div>
       </div>
       <Contact />
     </div>

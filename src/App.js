@@ -12,10 +12,9 @@ import Home from './components/Home/home.jsx';
 
 function App () {
   return (
-    
       <Router>
         <Switch>
-        <Route path="/" exact component={Home} />
+         <Route path="/" exact component={Home} />
           <Route path="/about" exact component={About} />
           <Route path="/ourWorlds" exact component={OurWorlds} />
           <Route path="/experiences" exact component={Experience} />
